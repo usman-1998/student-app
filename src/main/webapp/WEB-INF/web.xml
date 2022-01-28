@@ -1,0 +1,68 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  <servlet-name>Create</servlet-name>
+  <servlet-class>com.ty.student.web.CreateStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+   <servlet-name>Create</servlet-name>
+   <url-pattern>/create</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>GetAllStudent</servlet-name>
+  <servlet-class>com.ty.student.web.GetStudentsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+   <servlet-name>GetAllStudent</servlet-name>
+   <url-pattern>/getall</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>Delete</servlet-name>
+  <servlet-class>com.ty.student.web.DeleteStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+   <servlet-name>Delete</servlet-name>
+   <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>GetStudent</servlet-name>
+  <servlet-class>com.ty.student.web.GetStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+   <servlet-name>GetStudent</servlet-name>
+   <url-pattern>/getStudent</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Edit</servlet-name>
+  <servlet-class>com.ty.student.web.EditStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+   <servlet-name>Edit</servlet-name>
+   <url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+  <servlet-name>Login</servlet-name>
+  <servlet-class>com.ty.web.SigninServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+   <servlet-name>Login</servlet-name>
+   <url-pattern>/signin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Logout</servlet-name>
+  <servlet-class>com.ty.student.web.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+   <servlet-name>Logout</servlet-name>
+   <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
